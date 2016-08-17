@@ -1,0 +1,49 @@
+%
+% $Id: conclusion.tex
+%
+%   *******************************************************************
+%   * SEE THE MAIN FILE "AllegThesis.tex" FOR MORE INFORMATION.       *
+%   *******************************************************************
+%
+
+\chapter{Conclusion and Future Work}\label{ch:conclusion}
+
+%This chapter usually contains the following items, although not
+%necessarily in this order or sectioned this way in particular.
+
+
+
+\section{Conclusion}
+
+From the empirical study performed in this senior project, there are indications that the PMD tool best assisted participants in finding logic based bugs. But in all fairness, this study has only scratched the surface of these tools functionality and each of the tools have at least 100 rules/checks that they can perform. FindBugs and Checkstyle do not find as many false positives as PMD and since all tools seemed to work pretty fast, the cost (time wise) of running all three together is small. All three tools are free, so there is neither a financial cost involved in using them. This suggests that all three tools should be used together. I assume it is easier to go through an eventual false positive rather than finding a bug going through the code line by line.
+%conclude on goal one
+%and goal two
+
+%discussion: what could I have done differently? 
+%more bugs could have been analyzed?
+%constructed more bugs and run the programs myself?
+%used other settings?
+
+
+%are the tools complementary 
+
+%is the conclusion that a programmer should run all three tools on his code to assist finding errors
+%should the conclusion be that a programmer should use all 3 tools to analyze code?
+
+%did any the of tools finds the same errors - 2 of the tools find same error
+
+\section{Future Work}
+
+To make the work done in this senior project more conclusive, the project can be extended. First, more participants could be added to get more reliable results. 
+
+Secondly, the number of programs with bugs could be increased to explore additional logic based bugs. In this project, we have investigated misplaced semi-colon in a for loop, incorrect formulas, incorrect object comparisons, and incorrect placement of break statements in a switch statement. Another logic based bug that could be examined is the order of operation or also known as a operator precedence. For example, if a Java program has two primitive data types of int a = 5 and int b = 8, and should calculate the average by using the following formula: (a + b) / 2. If the parenthesis are not included, the formula will be: a + b / 2. The two formulas calculate different results because of operator precedence, where the first formula is correct for calculating the average of a and b. In the last formula, division is evaluated before addition. 
+
+The three tools examined each has more than 100 different checks and they can be configured to perform the different checks. Different configurations of the tools could be explored including adding programmers own checks. 
+
+The project could also run over an extensive period of time, so participant's long term experience with the tools in an “everyday situation” could be examined.
+
+Another consideration is to evaluate additional tools to explore if there are other tools that are more suited to detect logic based bugs than the tools included in this study.
+
+Lastly, it could be considered to develop a new tool by combining the benefits of the three tools and at the same time minimize the amount of flaws in the tools. 
+%Another idea is to evaluate more tools to see if there are tools that are more suited to detect
+%logic based bugs. The tools can be used to find other bugs that the bugs that were included in this study.

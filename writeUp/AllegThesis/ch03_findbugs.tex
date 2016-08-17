@@ -1,0 +1,28 @@
+\chapter{FindBugs}\label{ch:FindBugs}
+
+FindBugs is a free and open source program that allows Java programmers to get assistance in locating bugs in Java source code. It has been developed at the University of Maryland and was initially released in 2006. The version that has been used in this project is FindBugs release 3.0.1.
+
+This tool is considered to be a bug checker tool. The reason for this is that its primary job is to assist programmers in finding bugs in their code.
+
+All of the bug pattern detectors are implemented using BCEL \cite{apache_commons_bcel-2004}. BCEL is an open source bytecode analysis and instrumentation library \cite{Hovemeyer:2004:FBE:1028664.1028717}. FindBugs is further developed constantly. There have been several front end implementation added onto FindBugs. Some of these include generating XML that reports possible bug findings and plugins for several Integrated Development Environments (IDE). Some of the IDEs  that have been contributed as front ends include the Eclipse IDE which was used for this empirical study, and IntelliJ IDEA. Another front end implementation that was added onto FindBugs include a task for running FindBugs from the Apache Ant Build tool.
+
+Since FindBugs 2.0, there have been some major new features. One of these new features is the idea of bug rank which means ranking according to detected severity of a bug. This feature gives possible bugs a rank from 1 - 20. These possible bugs are grouped into categories. Rank 1-4 is considered to be the scariest. Rank 5-9 is considered to be scary. Rank 10-14 is considered to be troubling. Rank 15-20 is considered to be of concern. 
+ 
+FindBugs uses a series of ad-hoc techniques designed to balance precision, efficiency, and usability \cite{bugFindingTools}. One of FindBugs approaches is to match source code to "well known" bad or suspicious programming practices. In some cases, FindBugs also uses data flow analysis to check for bugs.
+
+Internally FindBugs analyze the generated Java bytecode for bug patterns. This means that the code has to be compiled prior to FindBugs doing its analysis. 
+
+The current FindBugs version categorizes bugs in 9 categories: Bad practice (88), Correctness (149), Dodgy code (79), Experimental (3), Internationalization (2), Malicious code vulnerability (17), Multithreaded correctness (46), Performance (29), and Security (11). There are 424 checks in total. The number in parenthesis is the current number of checks in that category. Some of these categories contains checks for are actual bugs like IL\_INFINITE\_LOOP: ``This loop does not seem to have a way to terminate (other than by perhaps throwing an exception)," whereas other categories merely identifies coding styling issues as for example NM\_FIELD\_NAMING\_CONVENTION: ``Names of fields that are not final should be in mixed case with a lowercase first letter and the first letters of subsequent words capitalized". Both examples are taken from the Correctness category.
+
+FindBugs is highly configurable. FindBugs can be expanded by writing custom bug detectors for Java \cite{bugFindingTools}. If the programmers are familiar with Java bytecode they can write a new FindBugs detector in as little as a few minutes.
+
+
+\begin{figure}[h]
+\begin{center}
+	\includegraphics[width=1.15\textwidth]{FindBugs.png}
+\end{center}
+\caption{FindBugs used in the Eclipse environment}
+\label{fig:findbugs}
+\end{figure}
+
+Figure \ref{fig:findbugs} is a screenshot taken that shows the FindBugs tool being used in the empirical study. Inside of the Eclipse Integrated Development Environment, FindBugs points to a specific line of source code in the program that FindBugs finds to possible be a bug. This is shown by the red bug on line 237.

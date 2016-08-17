@@ -1,0 +1,16 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The Figure shows the representation of poker hands - (a) starts with the lowest hand (b) starts with the highest hand. The highest hand is the winner of the game, and therefore the program code should use the representation (b) to decide the winner.}}{2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Java Visualizer used to go through a Java program line by line}}{7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces FindBugs used in the Eclipse environment}}{12}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Example of PMD used in the Eclipse Integrated Development Environment}}{15}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of an Abstract Syntax Tree that both PMD and Checkstyle use. \cite {1_foster_2016}.}}{16}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Example of Checkstyle being used in the Eclipse Integrated Development Environment}}{18}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The process of how this empirical study was conducted.}}{22}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

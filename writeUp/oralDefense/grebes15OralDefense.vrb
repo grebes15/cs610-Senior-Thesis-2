@@ -1,0 +1,21 @@
+\frametitle{Motivation}
+\framesubtitle{Poker}
+\begin{lstlisting}[
+basicstyle=\tiny,
+]
+//------------------------
+// Begin hand comparison
+//------------------------
+for (int i=0;i<numPlayers;i++){
+HandEval handToEval = new HandEval();
+// populate with player cards
+for (int j=0;j<player[i].holeCardsSize();j++){
+                handToEval.addCard(player[i].getCard(j),j);
+            }
+//populate with board cards
+for (int j=player[i].holeCardsSize();j<(player[i].holeCardsSize()+board.boardSize());j++){
+handToEval.addCard(board.getBoardCard(j player[i].holeCardsSize()),j);
+            }
+            System.out.println("Player " + (i+1) + " hand value: " + handToEval.evaluateHand());
+        }
+\end{lstlisting}

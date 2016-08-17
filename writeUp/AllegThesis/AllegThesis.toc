@@ -1,0 +1,32 @@
+\contentsline {chapter}{Acknowledgment}{iv}
+\contentsline {chapter}{List of Figures}{vii}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}
+\contentsline {section}{\numberline {1.2}Current State of the Art}{3}
+\contentsline {section}{\numberline {1.3}Definitions}{3}
+\contentsline {section}{\numberline {1.4}Goals of the Project}{5}
+\contentsline {section}{\numberline {1.5}Thesis Outline}{6}
+\contentsline {chapter}{\numberline {2}Related Work}{7}
+\contentsline {section}{\numberline {2.1}Java Visualizer}{7}
+\contentsline {section}{\numberline {2.2}Jlint}{8}
+\contentsline {section}{\numberline {2.3}Bandera}{8}
+\contentsline {section}{\numberline {2.4}ESC/Java2}{8}
+\contentsline {section}{\numberline {2.5}Summary of Related Work}{9}
+\contentsline {chapter}{\numberline {3}FindBugs}{10}
+\contentsline {chapter}{\numberline {4}PMD}{13}
+\contentsline {section}{\numberline {4.1}AST - Abstract Syntax Tree}{15}
+\contentsline {chapter}{\numberline {5}Checkstyle}{17}
+\contentsline {chapter}{\numberline {6}Methodology}{20}
+\contentsline {chapter}{\numberline {7}Discussion and Results}{25}
+\contentsline {section}{\numberline {7.1}Discussion}{25}
+\contentsline {section}{\numberline {7.2}Results}{26}
+\contentsline {section}{\numberline {7.3}Summary}{28}
+\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{30}
+\contentsline {section}{\numberline {8.1}Conclusion}{30}
+\contentsline {section}{\numberline {8.2}Future Work}{30}
+\contentsline {chapter}{\numberline {A}Java Code}{32}
+\contentsline {subsection}{\numberline {A.0.1}Common Java Bug 1}{32}
+\contentsline {subsection}{\numberline {A.0.2}Common Java Bug 2}{34}
+\contentsline {subsection}{\numberline {A.0.3}Common Java Bug 3 and airlines.txt}{36}
+\contentsline {subsection}{\numberline {A.0.4}Common Java Bug 4}{41}
+\contentsline {chapter}{Bibliography}{54}

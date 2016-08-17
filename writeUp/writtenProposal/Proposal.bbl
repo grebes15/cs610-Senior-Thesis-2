@@ -1,0 +1,90 @@
+\begin{thebibliography}{10}
+
+\bibitem{Ayewah:2010:GFF:1831708.1831738}
+Nathaniel Ayewah and William Pugh.
+\newblock The {G}oogle {F}indbugs {F}ixit.
+\newblock In {\em Proceedings of the 19th International Symposium on Software
+  Testing and Analysis}, ISSTA '10, pages 241--252, New York, NY, USA, 2010.
+  ACM.
+
+\bibitem{Ayewah:2010:NDA:1806672.1806686}
+Nathaniel Ayewah and William Pugh.
+\newblock Null {D}ereference {A}nalysis in {P}ractice.
+\newblock In {\em Proceedings of the 9th ACM SIGPLAN-SIGSOFT Workshop on
+  Program Analysis for Software Tools and Engineering}, PASTE '10, pages
+  65--72, New York, NY, USA, 2010. ACM.
+
+\bibitem{Binkley}
+David Binkley.
+\newblock Source code analysis: A road map.
+\newblock In {\em 2007 Future of Software Engineering}, FOSE '07, pages
+  104--119, Washington, DC, USA, 2007. IEEE Computer Society.
+
+\bibitem{Hovemeyer:2004:FBE:1028664.1028717}
+David Hovemeyer and William Pugh.
+\newblock Finding {B}ugs is {E}asy.
+\newblock In {\em Companion to the 19th Annual ACM SIGPLAN Conference on
+  Object-oriented Programming Systems, Languages, and Applications}, OOPSLA
+  '04, pages 132--136, New York, NY, USA, 2004. ACM.
+
+\bibitem{Hovemeyer:2004:FBE:1052883.1052895}
+David Hovemeyer and William Pugh.
+\newblock Finding {B}ugs is {E}asy.
+\newblock {\em SIGPLAN Not.}, 39(12):92--106, December 2004.
+
+\bibitem{Kim}
+Sunghun Kim, Kai Pan, and E.~E.~James Whitehead, Jr.
+\newblock Memories of {B}ug {F}ixes.
+\newblock In {\em Proceedings of the 14th ACM SIGSOFT International Symposium
+  on Foundations of Software Engineering}, SIGSOFT '06/FSE-14, pages 35--45,
+  New York, NY, USA, 2006. ACM.
+
+\bibitem{Merson:2013:UAE:2508075.2508433}
+Paulo Merson.
+\newblock Ultimate {A}rchitecture {E}nforcement: {C}ustom {C}hecks {E}nforced
+  at {C}ode-commit {T}ime.
+\newblock In {\em Proceedings of the 2013 Companion Publication for Conference
+  on Systems, Programming, \&\#38; Applications: Software for Humanity}, SPLASH
+  '13, pages 153--160, New York, NY, USA, 2013. ACM.
+
+\bibitem{Nagpurkar}
+Priya Nagpurkar and Chandra Krintz.
+\newblock Visualization and {A}nalysis of {P}hased {B}ehavior in {J}ava
+  {P}rograms.
+\newblock In {\em Proceedings of the 3rd International Symposium on Principles
+  and Practice of Programming in Java}, PPPJ '04, pages 27--33. Trinity College
+  Dublin, 2004.
+
+\bibitem{softwareEngineering}
+Shari~Lawrence Pfleeger and Joanne~M. Atlee.
+\newblock {\em Software {E}ngineering: {T}heory and {P}ractice}.
+\newblock Prentice Hall; 4th edition, Upper Saddle River, New Jersey, 2009.
+
+\bibitem{BugFindingTools}
+N.~Rutar, C.B. Almazan, and J.S. Foster.
+\newblock A {C}omparison of {B}ug {F}inding {T}ools for java.
+\newblock In {\em Software Reliability Engineering, 2004. ISSRE 2004. 15th
+  International Symposium on}, pages 245--256, Nov 2004.
+
+\bibitem{Taming-the-complexity}
+Raghvinder~S. Sangwan.
+\newblock Taming the complexity: The need for program understanding in software
+  engineering.
+\newblock In {\em Pennsylvania State Universit, Great Valley School of Graduate
+  Professional Studies}, pages 1--13.
+
+\bibitem{Smaragdakis:2007:CSD:1776119.1776120}
+Yannis Smaragdakis and Christoph Csallner.
+\newblock Combining {S}tatic and {D}ynamic {R}easoning for {B}ug {D}etection.
+\newblock In {\em Proceedings of the 1st International Conference on Tests and
+  Proofs}, TAP'07, pages 1--16, Berlin, Heidelberg, 2007. Springer-Verlag.
+
+\bibitem{Urma}
+Raoul-Gabriel Urma and Alan Mycroft.
+\newblock Programming {L}anguage {E}volution via {S}ource {C}ode {Q}uery
+  {L}anguages.
+\newblock In {\em Proceedings of the ACM 4th Annual Workshop on Evaluation and
+  Usability of Programming Languages and Tools}, PLATEAU '12, pages 35--38, New
+  York, NY, USA, 2012. ACM.
+
+\end{thebibliography}

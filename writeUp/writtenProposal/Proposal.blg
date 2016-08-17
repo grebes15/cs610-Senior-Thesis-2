@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Proposal.aux
+The style file: plain.bst
+Database file #1: Bibliography.bib
+Warning--empty year in Taming-the-complexity
+You've used 13 entries,
+            2118 wiz_defined-function locations,
+            598 strings with 6952 characters,
+and the built_in function-call counts, 5383 in all, are:
+= -- 589
+> -- 161
+< -- 11
++ -- 65
+- -- 50
+* -- 319
+:= -- 795
+add.period$ -- 48
+call.type$ -- 13
+change.case$ -- 63
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 260
+empty$ -- 462
+format.name$ -- 50
+if$ -- 1245
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 14
+newline$ -- 68
+num.names$ -- 26
+pop$ -- 73
+preamble$ -- 1
+purify$ -- 51
+quote$ -- 0
+skip$ -- 207
+stack$ -- 0
+substring$ -- 379
+swap$ -- 99
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 50
+warning$ -- 1
+while$ -- 60
+width$ -- 15
+write$ -- 170
+(There was 1 warning)

@@ -1,0 +1,98 @@
+\chapter{Discussion and Results}\label{ch:resultsanddiscussion}
+
+\section{Discussion}
+
+The first Java program that was used for this study calculated the binary of a particular number. FindBugs did not assist any of the participants in finding this bug. Checkstyle was able to detect several warnings in the source code regarding indentation levels. However, it did not further assist programmers in finding this bug. PMD highlighted several lines of the code to give warnings. One of these warnings included the 'for loop' that did not have brackets around it. The semi-colon, may have caused PMD to give this warning and assisted participants to locate logic based bugs in the program.
+
+The second program calculated the velocity squared incorrectly. FindBugs did not assist any of the participants in finding this bug. Checkstyle presented several warnings in the source code regarding indentation level. However, it did not further assist programmers in finding this bug. PMD highlighted several lines of code to give warnings. Unfortunately, it did not assist any of the participants in this study to find the logic based bugs.
+
+The third program used the operator `==' instead of the method .equal(). FindBugs was not able to assist any of the participants in finding this bug. FindBugs detected an incorrect line of source code where an absolute path was declared, however it was not the issue and it was therefore a false-positive. Checkstyle detected several warnings in the source code regarding indentation levels. However, it did not further assist programmers in finding this bug. PMD  highlighted several lines of code to give warnings. Fortunately, it highlighted the specific line of source code that contained the bug. On this specific line, PMD highlights and says to use the .equals() method to compare object references.
+
+In the fourth program, a break statement was missing. FindBugs was not able to assist any of the participants in finding this bug. FindBugs detected an incorrect line in the source code where an absolute path was declared, however that was not the issue and was a false-positive. Checkstyle detected several warnings in the source code regarding indentation level. However, it did not further assist programmers in finding this bug. PMD highlighted several lines of code to give warnings. Fortunately, it highlighted the specific line of source code that contained the bug. On this specific line, PMD highlights and says to use a break statement in a switch case statement. While it appears that PMD seems to be the most efficient bug finding tool in my research, it should be stated that the other tools might prove their strengths in other situations, such as checking the style of how the code is written. 
+
+
+%SUMMARY:
+\section{Results}
+
+Each program was ran by six participants. The tables in this chapter show the result from each participant when using the three tool, including if the three tools were able to assist the participant in finding the bug. 
+
+\begin{table}
+\begin{center}
+	\begin{tabular}{| l | l | l | l |}
+		\hline
+		Participant Number & FindBugs & PMD & Checkstyle\\ \hline
+		1 & No & Yes & No \\ \hline
+		2 & N/A & N/A & No \\ \hline
+		3 & No & Yes & No \\ \hline
+		4 & N/A & No & No \\ \hline
+		5 & No & N/A & No \\ \hline
+		6 & N/A & Yes & N/A \\ \hline
+	\end{tabular}
+	\caption{This is output from all of the participants from Program 1.}
+\end{center}
+\end{table}
+
+
+\begin{table}
+\begin{center}
+	\begin{tabular}{| l | l | l | l |}
+		\hline
+		Participant Number & FindBugs & PMD & Checkstyle \\ \hline
+		1 & No & No & No \\ \hline
+		2 & No & N/A & N/A \\ \hline
+		3 & N/A & N/A & No \\ \hline
+		4 & No & No & N/A \\ \hline
+		5 & No & No & No \\ \hline
+		6 & No & No & No \\ \hline
+	\end{tabular}
+	\caption{This is output from all of the participants from Program 2.}
+\end{center}
+\end{table}
+
+
+\begin{table}
+\begin{center}
+	\begin{tabular}{| l | l | l | l |}
+		\hline
+		Participant Number & FindBugs & PMD & Checkstyle \\ \hline
+		1 & N/A & Yes & N/A \\ \hline
+		2 & N/A & Yes & No \\ \hline
+		3 & No & Yes & N/A \\ \hline
+		4 & No & Yes & No \\ \hline
+		5 & No & Yes & N/A  \\ \hline
+		6 & N/A & Yes & N/A \\ \hline
+	\end{tabular}
+	\caption{This is output from all of the participants from Program 3.}
+\end{center}
+\end{table}
+
+
+\begin{table}
+\begin{center}
+	\begin{tabular}{| l | l | l | l |}
+		\hline
+		Participant Number & FindBugs & PMD & Checkstyle \\ \hline
+		1 & N/A & N/A & Yes \\ \hline
+		2 & N/A & Yes & N/A \\ \hline
+		3 & N/A & N/A & No \\ \hline
+		4 & N/A & Yes & N.A \\ \hline
+		5 & N/A & N/A & No \\ \hline
+		6 & N/A & Yes & No \\ \hline
+	\end{tabular}
+	\caption{This is output from all of the participants from Program 4.}
+\end{center}
+\end{table}
+
+\newpage
+\section{Summary}
+
+FindBugs did not assist the participants in finding any of the bugs in the programs, but highlighted several false positives.
+
+Checkstyle only assisted one of the participants in finding the bug in one of the programs. When Checkstyle was ran for each program, almost every line of source code was highlighted. One of the reasons was the default naming convention. The default configuration of Checkstyle was that certain method names must contain no more than one capital letter. Another contributing factor was using the indentation level. Unlike a programming language such as Python, the source code in Java does not differ if the code is indented or not. If the Checkstyle tool is used for a Python program it would be beneficial in finding bugs because of incorrect indentation.  
+
+PMD was the most useful tool according to the surveys from the participants. The only program where PMD did not assist any of the participants was the second program. In fact, none of the tools were able to assist the programmers in finding the logic based bug in the second program. 
+
+According to the surveys, the end result indicated that the participants would use PMD in the future for finding logic based bugs.
+
+There were multiple suggestions to improve PMD. Several of the participants also suggested improvements to Checkstyle. In the default configuration of Checkstyle, several of the highlighted lines were false positives. Participants suggested to remove most of these warnings since it was difficult to look at the source code when so many false positives were shown. 
+

@@ -1,0 +1,24 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: AllegThesis.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: ack.aux
+A level-1 auxiliary file: ch01_overview.aux
+A level-1 auxiliary file: ch02_relatedwork.aux
+A level-1 auxiliary file: ch03_FindBugs.aux
+A level-1 auxiliary file: ch04_pmd.aux
+A level-1 auxiliary file: ch05_Checkstyle.aux
+A level-1 auxiliary file: ch06_methodology.aux
+A level-1 auxiliary file: ch07_resultsfromempiricalstudy.aux
+A level-1 auxiliary file: ch08_conclusion.aux
+A level-1 auxiliary file: appa.aux
+The style file: plain.bst
+Database file #1: Bibdir/myBibtexDataBase.bib
+Warning--to sort, need author or key in apache_commons_bcel-2004
+Warning--to sort, need author or key in pmd
+Warning--to sort, need author or key in CheckstyleStandardChecks
+Warning--to sort, need author or key in FindBugs
+Warning--empty year in artho_havelund
+Warning--can't use both volume and number fields in blackburn2006dacapo
+Warning--empty year in chalin_kiniry_leavens_poll
+Warning--empty year in StaticCodeAnalysisApproach
+Warning--empty year in Taming-the-complexity
+(There were 9 warnings)

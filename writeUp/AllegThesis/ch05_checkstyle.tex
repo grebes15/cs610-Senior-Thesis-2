@@ -1,0 +1,29 @@
+\chapter{Checkstyle}\label{ch:Checkstyle}
+
+Checkstyle is a static analysis tool used for checking Java source code with sets of coding rules. It was originally released in 2001.
+
+Checkstyle is a development tools to help programmer write Java code that adheres to a coding standard \cite{Merson:2013:UAE:2508075.2508433}. This is also a static code analysis tool used in software development such as FindBugs and PMD. Checkstyle checks at the Java source code level to see if it complies with coding rules set upon. 
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1.15\textwidth]{Checkstyle.png}
+\end{center}
+\caption{Example of Checkstyle being used in the Eclipse Integrated Development Environment}
+\end{figure}
+The version of Checkstyle that is used in the current experiment is 6.17.
+
+Checkstyle contains a number of individual checks that can be performed on the source code. The current version has 153 checks grouped into 14 Categories: Annotations (7), Block Checks(6), Class Design(9), Coding(43), Headers(2), Imports(8), Javadoc Comments(12), Metrics(6), Miscellaneous(15), Modifiers(2), Naming Conventions(15), Regex(5), Size Violations(8), and Whitespace(15). The number in the parenthesis is the number of checks for each category. Many of the checks in Checkstyle relate to program style issues. In the current study the focus is on the coding checks.
+
+In the category, Coding, the checks that identifies bad programming style often results in errors. Examples of these checks are:
+\begin{itemize}
+	\item DefaultComesLast: Check that the default is after all the cases in a switch statement.
+	\item EmptyStatement: Detects empty statements (standalone ``;'' semicolon).
+	\item FallThrough: Checks for missing break, return, throw or continue in a switch statement.
+	\item InnerAssignment: Checks for assignments in a subexpression like String s = Integer.toString(i = 2);. This is considered bad coding style and sometimes is because the programmers wants to do a comparison (==).
+	\item MissingSwitchDefault: Checks that there is always a default - line in a switch block.
+	\item ModifiedControlVariable: Checks if a for loop variable is modified inside the block that is being executed - like for(int i = 0; i $<=$ 5; i++) \{ ...  i = 3; \}
+\end{itemize}
+
+A check is a separate Java Class that is being executed when Checkstyle goes through the source file. Just as PMD, Checkstyle uses internally an Abstract Syntax Tree representation of the source code as shown in Chapter \ref{sec:ast}. This module approach makes it easy to implement new and custom designed checks. This feature has not been examined in this study.
+
+Checkstyle can either be run as a plugin in an IDE or generate reports that summarized the ``rules violated" on a project basis. In this experiment I will utilize the integration with the Eclipse IDE.

@@ -1,0 +1,530 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.6)  5 APR 2016 16:23
+entering extended mode
+**AllegThesis.tex
+(AllegThesis.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (gatorthesis.sty
+Package: gatorthesis 1997/11/25
+
+Allegheny Thesis Style, $Revision: 1.0 $, by Andrew Thall (athall@allegheny.edu
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (doublespace.sty)
+("C:\Program Files\MiKTeX 2.9\tex\latex\comment\comment.sty"
+\CommentStream=\write3
+
+Excluding comment 'comment')
+\gator@hour=\count88
+\gator@minute=\count89
+\@shortcaptionsize=\skip43
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count90
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count91
+\lst@currlwidth=\dimen103
+\lst@column=\count92
+\lst@pos=\count93
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count94
+\lst@lineno=\count95
+\lst@maxwidth=\dimen106
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count96
+\lst@skipnumbers=\count97
+\lst@framebox=\box27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen107
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen108
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count98
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count99
+\leftroot@=\count100
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count101
+\DOTSCASE@=\count102
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count103
+\c@MaxMatrixCols=\count104
+\dotsspace@=\muskip10
+\c@parentequation=\count105
+\dspbrk@lvl=\count106
+\tag@help=\toks17
+\row@=\count107
+\column@=\count108
+\maxfields@=\count109
+\andhelp@=\toks18
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks19
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count110
+))
+\Gin@req@height=\dimen116
+\Gin@req@width=\dimen117
+)
+\epsfxsize=\dimen118
+\epsfysize=\dimen119
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count111
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+LaTeX Info: Redefining \xspace on input line 39.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+********************************************************
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (cfiorio@um2.fr)
+********************************************************
+\skiptotal=\skip47
+\skiplinenumber=\skip48
+\skiprule=\skip49
+\skiphlne=\skip50
+\skiptext=\skip51
+\skiplength=\skip52
+\algomargin=\skip53
+\skipalgocfslide=\skip54
+\algowidth=\dimen120
+\inoutsize=\dimen121
+\inoutindent=\dimen122
+\interspacetitleruled=\dimen123
+\interspacealgoruled=\dimen124
+\interspacetitleboxruled=\dimen125
+\algocf@inoutbox=\box30
+\algocf@inputbox=\box31
+\AlCapSkip=\skip55
+\AlCapHSkip=\skip56
+\algoskipindent=\skip57
+\algocf@nlbox=\box32
+\algocf@hangingbox=\box33
+\algocf@untilbox=\box34
+\algocf@skipuntil=\skip58
+\algocf@capbox=\box35
+\algoheightruledefault=\skip59
+\algoheightrule=\skip60
+\algotitleheightruledefault=\skip61
+\algotitleheightrule=\skip62
+\c@algocfline=\count112
+\c@algocfproc=\count113
+\c@algocf=\count114
+\algocf@algoframe=\box36
+\algocf@algobox=\box37
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count115
+\float@exts=\toks21
+\float@box=\box38
+\@float@everytoks=\toks22
+\@floatcapt=\box39
+) (AllegThesis.aux
+(abstract.aux) (ack.aux) (ch01_overview.aux) (ch02_relatedwork.aux)
+(ch03_FindBugs.aux) (ch04_pmd.aux) (ch05_Checkstyle.aux) (ch06_methodology.aux)
+(ch07_resultsfromempiricalstudy.aux) (ch08_conclusion.aux) (appa.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+\c@lstlisting=\count116
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count117
+\scratchdimen=\dimen126
+\scratchbox=\box40
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen127
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks24
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 182.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 182.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 183.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 183.
+ [2] (abstract.tex
+[3
+
+
+]) (ack.tex
+Overfull \hbox (5.13377pt too wide) in paragraph at lines 19--20
+[]\OT1/cmr/m/n/12 Every other mem-ber of the Al-legheny fac-ulty, for un-par-al
+-leled ex-cel-lence through-
+ []
+
+) [4
+
+
+
+
+] (AllegThesis.toc [5
+
+
+
+])
+\tf@toc=\write4
+ [6] (AllegThesis.lof)
+\tf@lof=\write5
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+) [7
+
+
+]
+(ch01_overview.tex
+Chapter 1.
+[1
+
+
+
+] <motivationImproved.png, id=31, 872.25874pt x 638.385pt>
+File: motivationImproved.png Graphic file (type png)
+
+<use motivationImproved.png>
+Package pdftex.def Info: motivationImproved.png used on input line 47.
+(pdftex.def)             Requested size: 348.89731pt x 255.34947pt.
+ [2 <./motivationImproved.png>] [3] [4]) [5]
+[6] (ch02_relatedwork.tex
+Chapter 2.
+<JavaVisualizer.png, id=50, 881.2925pt x 418.56375pt>
+File: JavaVisualizer.png Graphic file (type png)
+ <use JavaVisualizer.png>
+Package pdftex.def Info: JavaVisualizer.png used on input line 16.
+(pdftex.def)             Requested size: 440.64517pt x 209.28136pt.
+
+Overfull \hbox (7.02516pt too wide) in paragraph at lines 16--17
+[][] 
+ []
+
+[7
+
+
+
+
+ <./JavaVisualizer.png>] [8]) [9] (ch03_FindBugs.tex
+Chapter 3.
+[10
+
+
+
+
+] <FindBugs.png, id=64, 1927.2pt x 1084.05pt>
+File: FindBugs.png Graphic file (type png)
+ <use FindBugs.png>
+Package pdftex.def Info: FindBugs.png used on input line 23.
+(pdftex.def)             Requested size: 498.66035pt x 280.48997pt.
+
+Overfull \hbox (65.04034pt too wide) in paragraph at lines 23--24
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [11] [12 <./FindBugs.png>] (ch04_pmd.tex
+Chapter 4.
+[13
+
+
+
+
+] [14] <pmd.png, id=78, 1927.2pt x 1084.05pt>
+File: pmd.png Graphic file (type png)
+ <use pmd.png>
+Package pdftex.def Info: pmd.png used on input line 14.
+(pdftex.def)             Requested size: 498.66035pt x 280.48997pt.
+
+Overfull \hbox (65.04034pt too wide) in paragraph at lines 14--15
+ [] 
+ []
+
+[15 <./pmd.png>] <image001.png, id=82, 551.81157pt x 362.10281pt>
+File: image001.png Graphic file (type png)
+
+<use image001.png>
+Package pdftex.def Info: image001.png used on input line 29.
+(pdftex.def)             Requested size: 390.25536pt x 256.10023pt.
+) [16 <./image001.png>] (ch05_Checkstyle.tex
+Chapter 5.
+<Checkstyle.png, id=87, 1927.2pt x 1084.05pt>
+File: Checkstyle.png Graphic file (type png)
+ <use Checkstyle.png>
+Package pdftex.def Info: Checkstyle.png used on input line 9.
+(pdftex.def)             Requested size: 498.66035pt x 280.48997pt.
+
+Overfull \hbox (65.04034pt too wide) in paragraph at lines 9--10
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17
+
+
+
+
+]) [18 <./Checkstyle.png>] (ch06_methodology.tex
+Chapter 6.
+[19
+
+
+
+
+] <Methodology.png, id=98, 782.17218pt x 603.75563pt>
+File: Methodology.png Graphic file (type png)
+ <use Methodology.png>
+Package pdftex.def Info: Methodology.png used on input line 17.
+(pdftex.def)             Requested size: 391.08513pt x 301.87708pt.
+
+[20 <./Methodology.png>] [21] [22]) [23] (ch07_resultsfromempiricalstudy.tex
+Chapter 7.
+[24
+
+
+
+
+] [25] [26] [27]) [28] (ch08_conclusion.tex
+Chapter 8.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+[29
+
+
+
+
+]) [30] (appa.tex
+Appendix A.
+(1/CJB1Final.java [31
+
+
+
+
+] [32]) (2/CJB2Final.java [33] [34]) (3/CJB3Final.java
+[35] [36] [37] [38]) [39] (3/airlines.txt) (4/CJB4Final.java [40] [41] [42]
+[43] [44] [45] [46] [47] [48] [49] [50] [51])) [52] (AllegThesis.bbl
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+ [53
+
+
+
+]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+
+Underfull \hbox (badness 6332) in paragraph at lines 122--128
+$\OT1/cmtt/m/n/12 the -[] results -[] of -[] pmd -[] FindBugs -[] and -[] Check
+style . html$\OT1/cmr/m/n/12 . Ac-cessed 1 April
+ []
+
+[54] [55]
+Underfull \hbox (badness 2941) in paragraph at lines 262--269
+[]\OT1/cmr/m/n/12 Oleg She-la-jev.  The Wise De-vel-op-ers' Guide to Static Cod
+e Anal-y-
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 262--269
+\OT1/cmr/m/n/12 sis fea-tur-ing Find-Bugs, Check-style, PMD, Cover-ity and Sona
+r-qube, Apr
+ []
+
+[56]
+Underfull \hbox (badness 1515) in paragraph at lines 284--290
+[]\OT1/cmr/m/n/12 Markus Sprunck.  Com-par-i-son of Static Code Anal-y-sis Tool
+s for Java
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 284--290
+\OT1/cmr/m/n/12 - Find-bugs vs PMD vs Check-style - Soft-ware En-gi-neer-ing Ca
+n-dies.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
+$\OT1/cmtt/m/n/12 https : / / sites . google . com / site / markussprunck / blo
+g -[] 1 / comparison -[]$
+ []
+
+)
+THEPAGE 57
+[57] (AllegThesis.aux (abstract.aux) (ack.aux) (ch01_overview.aux)
+(ch02_relatedwork.aux) (ch03_FindBugs.aux) (ch04_pmd.aux) (ch05_Checkstyle.aux)
+(ch06_methodology.aux) (ch07_resultsfromempiricalstudy.aux)
+(ch08_conclusion.aux) (appa.aux)) ) 
+Here is how much of TeX's memory you used:
+ 5428 strings out of 493698
+ 73363 string characters out of 3144407
+ 284320 words of memory out of 3000000
+ 8588 multiletter control sequences out of 15000+200000
+ 11569 words of font info for 44 fonts, out of 3000000 for 9000
+ 1028 hyphenation exceptions out of 8191
+ 34i,7n,40p,1335b,1530s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmitt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on AllegThesis.pdf (64 pages, 1346036 bytes).
+PDF statistics:
+ 251 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+
